@@ -13,3 +13,6 @@
 - Review section and the ability to leave new reviews/comments
 - User lists for watched and to be watched horror movies
 - Perhaps have a “movie of the week”?
+
+## What I Learned
+- How to use Sass with React: install Sass and update filenames. React takes care of the rest!
