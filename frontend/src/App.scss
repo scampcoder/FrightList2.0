@@ -82,8 +82,8 @@ nav {
 /* end of navbar */
 
 /* banner */
-header {
-    height: 100vh;
+.banner {
+    height: 85vh;
   }
   
   .banner-text {
@@ -110,3 +110,11 @@ header {
     width: 100%;
   }
   /* end of banner */
+
+  /* mission */
+.underline {
+    width: 150px;
+    border: 3px solid;
+    margin: auto;
+}
+  /* end of mission */

@@ -1,6 +1,6 @@
 import './App.scss';
 import Navbar from './components/NavbarComponent';
-import Banner from './components/BannerComponent'
+import Banner from './components/BannerComponent';
 
 function App() {
   return (
