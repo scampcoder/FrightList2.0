@@ -118,3 +118,48 @@ nav {
     margin: auto;
 }
   /* end of mission */
+  
+/* weekly movies */
+#weekly-movies {
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .5)), url(../public/images/scary-forest.jpg) fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #weekly-movies {
+      img {
+          height: 30rem;
+          width: auto;
+          box-shadow: 5px 5px 20px #000;
+          transition: all .5s;
+        }
+  }
+  
+  @media (max-width: 959px) {
+    #weekly-movies-tri{
+      display: none;
+    }
+  }
+  
+  @media (max-width:1180px) and (min-width:959px) {
+    #weekly-movies {
+      img {
+          height: 20rem;
+          width: auto;
+          box-shadow: 5px 5px 20px #000;
+          transition: all .5s;
+        }
+    }
+  }
+  
+  @media (min-width: 959px) {
+    #weekly-movies-carousel {
+      display: none;
+    }
+    #weekly-movies img:hover {
+      cursor: pointer;
+      transform: scale(1.2);
+      box-shadow: 25px 25px 15px #000;
+    }
+  }
+  /* end of weekly movies */
