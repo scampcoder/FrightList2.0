@@ -1,4 +1,4 @@
-# (frontend/public/favicon.ico) Fright List 2.0
+# ![Fright List Icon](frontend/public/favicon.ico) Fright List 2.0
 
 ## Introduction
 - This is an updated version of my previous FrightList app - using React.
