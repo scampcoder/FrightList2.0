@@ -1,0 +1,82 @@
+$bloodred: #880808;
+$light-blood: #A64646;
+$dark-blood: #440404;
+$dark-gray: #777676;
+
+body {
+    background-color: black;
+}
+
+.bg-blood {
+    background-color: $bloodred;
+}
+
+.text-blood {
+    color: $bloodred;
+}
+
+.scary-font {
+    font-family: 'Nosifer', cursive;
+}
+
+/* search bar */
+.search-bar {
+  background: transparent;
+  border-color: transparent;
+  border-bottom: 2px solid black;
+  border-radius: 0;
+  transition: all .8s;
+  color: black;
+}
+
+.search-bar::placeholder {
+    color: black;
+}
+
+.search-bar:focus::placeholder {
+    color: transparent;
+  }
+
+.search-bar:focus {
+  background: transparent;
+  border-color: transparent;
+  box-shadow: none;
+  color: black;
+  border-bottom: 2px solid $dark-gray;  
+}
+
+.search-button {
+    background: black;
+    color: $light-blood;
+    transition: all .3s;
+}
+
+.search-button:hover {
+  background: $dark-gray;
+  color: $dark-blood;
+  transform: translateY(-3px);
+}
+/* end of search bar */
+
+/* navbar */
+.nav-menu {
+    padding: 30px;
+}
+
+nav {
+  border-bottom: 2px solid black ;
+}
+
+#navbarSupportedContent {
+    a {
+        transition: all .3s;
+    }
+}
+
+#navbarSupportedContent {
+    a:hover {
+        color: $dark-gray;
+        font-size: 1.1rem;
+    }
+}
+/* end of navbar */
