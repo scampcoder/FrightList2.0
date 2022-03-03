@@ -17,3 +17,7 @@
 
 ## What I Learned
 - How to use Sass with React: install Sass and update filenames. React takes care of the rest!
+- How to add images to markdown files
+- How to make calls to APIs
+- How to send API data to components
+- How to render multiple components with .map
