@@ -1,5 +1,5 @@
 import React from 'react'
-import movies from '../testingMovieData'
+import movies from '../weeklyMoviesData'
 import Movie from './MovieComponent'
 
 export default function WeeklyMovies() {
