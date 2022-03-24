@@ -7,15 +7,25 @@ export default function SearchPage() {
     const [moviesData, setMoviesData] = React.useState(movies);
     
     const [searchTerm, setSearchTerm] = React.useState('');
+
+    const [searched, setSearched] = React.useState(false)
     
-    
+    React.useEffect(() => {
+        setSearched(true);
+        setMoviesData(movies.filter(movie => movie.title.toLowerCase().includes(searchTerm.toLowerCase())))
+    }, [searchTerm])
+
     function handleSearch(event) {
         const {value} = event.target;
+        console.log(searchTerm)
         setSearchTerm(value);
+        
     }
     
     const movieElements = moviesData.map(movie => {return <Movie key={movie.id} movie={movie} />})
-    
+    const movieRow = <div className='row'>{movieElements}</div>
+
+
     return (
         <div>
             <Navbar />
@@ -29,11 +39,14 @@ export default function SearchPage() {
                     value={searchTerm}
                     onChange={handleSearch}
                 />
-                <button className="col-md-3 col-sm-12 btn btn-dark search-button-lt text-nowrap">Scare Me</button>
+                <button 
+                    className="col-md-3 col-sm-12 btn btn-dark search-button-lt text-nowrap"
+                    onClick={(event) => handleSearch(event)}
+                >
+                    Scare Me
+                </button>
             </div>
-            <div className='row'>
-                {movieElements}
-            </div>
+            {searched && movieRow}
             </div>
          
         </div>
