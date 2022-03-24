@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Navbar() {
     return (
@@ -11,18 +12,18 @@ export default function Navbar() {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item me-3">
-                    <a className="nav-link active fw-bold" aria-current="page" href="index.html"><i className="fas fa-home d-lg-none"></i> Home</a>
+                    <Link className="nav-link active fw-bold" aria-current="page" to="/home"><i className="fas fa-home d-lg-none"></i> Home</Link>
                 </li>
                 <li className="nav-item me-3">
-                    <a className="nav-link" href="profile_template.html"><i className="fas fa-user d-lg-none"></i> Profile</a>
+                    <Link className="nav-link" to="/profile"><i className="fas fa-user d-lg-none"></i> Profile</Link>
                 </li>
                 <li className="nav-item me-3">
-                    <a className="nav-link" href="my_lists_template.html"><i className="fas fa-list d-lg-none"></i> My Lists</a>
+                    <Link className="nav-link" to="/lists"><i className="fas fa-list d-lg-none"></i> My Lists</Link>
                 </li>
                 </ul>
                 <form className="d-flex me-5">
                 <input className="form-control search-bar" type="search" placeholder="Find a Film..." aria-label="Search"/>
-                <button className="btn btn-dark search-button text-nowrap" type="submit">Scare Me</button>
+                <Link to="/search"><button className="btn btn-dark search-button text-nowrap" type="submit">Scare Me</button></Link>
                 </form>
             </div>
             </div>

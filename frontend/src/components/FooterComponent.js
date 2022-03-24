@@ -38,7 +38,7 @@ export default function Footer() {
           </div>
           <div className="row">
             <div className="col text-center text-danger border-top pt-3">
-              <p>&copy; 2021 Copyright, Made by scampcoder<br/>All Rights Reserved</p>
+              <p>&copy; 2022 Copyright, Made by scampcoder<br/>All Rights Reserved</p>
             </div>
           </div>
         </div>
