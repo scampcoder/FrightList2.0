@@ -1,16 +1,11 @@
 import './App.scss';
-import Navbar from './components/NavbarComponent';
-import Banner from './components/BannerComponent';
-import WeeklyMovies from './components/WeeklyMoviesComponent';
-import Footer from './components/FooterComponent';
+import Home from './components/HomeComponent';
+
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Banner />
-      <WeeklyMovies />
-      <Footer />
+      <Home />
     </div>
   );
 }
