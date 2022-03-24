@@ -1,18 +1,13 @@
 import React from 'react'
 import Movie from '../components/MovieComponent'
-import APIKey from './apiKey'
+import movies from '../testingMovieData'
+import Navbar from '../components/NavbarComponent';
 
 export default function SearchPage() {
-    const [moviesData, setMoviesData] = React.useState([]);
+    const [moviesData, setMoviesData] = React.useState(movies);
     
     const [searchTerm, setSearchTerm] = React.useState('');
     
-    function getSearchResults () {
-        fetch(`https://imdb-api.com/API/Search/${APIKey}/${searchTerm}`)
-        .then(res => res.json())
-        .then(data => setMoviesData(data.results))
-        console.log(moviesData)
-    }
     
     function handleSearch(event) {
         const {value} = event.target;
@@ -23,6 +18,7 @@ export default function SearchPage() {
     
     return (
         <div>
+            <Navbar />
             <input 
                 placeholder='Scare Me' 
                 type='text'
@@ -30,7 +26,7 @@ export default function SearchPage() {
                 value={searchTerm}
                 onChange={handleSearch}
             />
-            <button onClick={getSearchResults}>Scare Me</button>
+            <button>Scare Me</button>
             {movieElements}
         </div>
     )

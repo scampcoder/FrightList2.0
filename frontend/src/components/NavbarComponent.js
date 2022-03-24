@@ -12,7 +12,7 @@ export default function Navbar() {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item me-3">
-                    <Link className="nav-link active fw-bold" aria-current="page" to="/home"><i className="fas fa-home d-lg-none"></i> Home</Link>
+                    <Link className="nav-link active fw-bold" aria-current="page" to="/"><i className="fas fa-home d-lg-none"></i> Home</Link>
                 </li>
                 <li className="nav-item me-3">
                     <Link className="nav-link" to="/profile"><i className="fas fa-user d-lg-none"></i> Profile</Link>

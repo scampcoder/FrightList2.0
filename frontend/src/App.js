@@ -1,5 +1,5 @@
 import './App.scss';
-import Home from './components/HomeComponent';
+import Home from './routes/HomeComponent';
 
 
 function App() {
