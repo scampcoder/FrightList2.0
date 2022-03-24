@@ -11,13 +11,12 @@ export default function SearchPage() {
     const [searched, setSearched] = React.useState(false)
     
     React.useEffect(() => {
-        setSearched(true);
         setMoviesData(movies.filter(movie => movie.title.toLowerCase().includes(searchTerm.toLowerCase())))
     }, [searchTerm])
 
     function handleSearch(event) {
         const {value} = event.target;
-        console.log(searchTerm)
+        setSearched(true);
         setSearchTerm(value);
         
     }
