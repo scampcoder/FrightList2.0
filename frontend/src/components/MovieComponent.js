@@ -2,8 +2,6 @@ import React from 'react';
 
 export default function Movie({movie}) {
     return (
-        <div>
-            <img src={movie.image} alt={movie.title}/>
-        </div>
+        <img className="searched-movie col-2 py-3" src={movie.image} alt={movie.title}/>
     )
 }

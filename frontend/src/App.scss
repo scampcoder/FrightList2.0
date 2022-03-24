@@ -173,3 +173,53 @@ nav {
     place-items: center;
   }
   /* end of footer */
+
+  /*Searched Films*/
+  .lg-search {
+    width: 50%;
+  }
+
+  .searched-movie {
+
+  }
+
+  .search-bar-lt {
+    background: transparent;
+    border-color: transparent;
+    border-bottom: 2px solid $bloodred;
+    border-radius: 0;
+    transition: all .8s;
+    color: $bloodred;
+    font-size: large;
+    word-spacing: 5px;
+  }
+
+  .search-bar-lt::placeholder {
+    color: $bloodred;
+  }
+
+  .search-bar-lt:focus::placeholder {
+    color: transparent;
+  }
+
+  .search-bar:focus {
+    background: transparent;
+    border-color: transparent;
+    box-shadow: none;
+    color: $bloodred;
+    border-bottom: 2px solid $dark-gray;  
+  }
+
+  .search-button-lt {
+      background: black;
+      color: $bloodred;
+      transition: all .3s;
+  }
+
+  .search-button-lt:hover {
+    background: black;
+    color: $bloodred;
+    transform: translateY(-3px);
+    font-size: large;
+  }
+  /*End of Searched Films*/

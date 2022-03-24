@@ -19,15 +19,23 @@ export default function SearchPage() {
     return (
         <div>
             <Navbar />
-            <input 
-                placeholder='Scare Me' 
-                type='text'
-                name='searchTerm'
-                value={searchTerm}
-                onChange={handleSearch}
-            />
-            <button>Scare Me</button>
-            {movieElements}
+            <div className="container-fluid">
+            <div className='lg-search row justify-content-center mx-auto my-4'>
+                <input 
+                    className="search-bar-lt col-md-5 col-sm-12 me-md-4"
+                    placeholder='Find a Film...' 
+                    type='text'
+                    name='searchTerm'
+                    value={searchTerm}
+                    onChange={handleSearch}
+                />
+                <button className="col-md-3 col-sm-12 btn btn-dark search-button-lt text-nowrap">Scare Me</button>
+            </div>
+            <div className='row'>
+                {movieElements}
+            </div>
+            </div>
+         
         </div>
     )
 }
