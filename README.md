@@ -21,3 +21,6 @@
 - How to make calls to APIs and turn that data into components
 - How to send API data to components
 - How to render multiple components with .map
+
+
+Temporary film descriptions from Rotten Tomatoes

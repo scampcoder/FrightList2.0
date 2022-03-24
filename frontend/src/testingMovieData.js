@@ -106,7 +106,61 @@ const movies = [
         description: "Jodie Foster stars as Clarice Starling, a top student at the FBI's training academy. Jack Crawford (Scott Glenn) wants Clarice to interview Dr. Hannibal Lecter (Anthony Hopkins), a brilliant psychiatrist who is also a violent psychopath, serving life behind bars for various acts of murder and cannibalism. Crawford believes that Lecter may have insight into a case and that Starling, as an attractive young woman, may be just the bait to draw him out.",
         rating: 0.0,
         genres: []
-    },  
+    },
+    {
+        id: 13,
+        title: "Mandy",
+        image: "https://upload.wikimedia.org/wikipedia/en/9/9a/Mandy_%282018_film%29.png",
+        year: "2018",
+        description: "In the Pacific Northwest in 1983, outsiders Red Miller and Mandy Bloom lead a loving and peaceful existence. When their pine-scented haven is savagely destroyed by a cult led by the sadistic Jeremiah Sand, Red is catapulted into a phantasmagoric journey filled with bloody vengeance and laced with deadly fire.",
+        rating: 0.0,
+        genres: []
+    },
+    {
+        id: 14,
+        title: "Psycho",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Psycho_%281960%29_theatrical_poster_%28retouched%29.jpg/1200px-Psycho_%281960%29_theatrical_poster_%28retouched%29.jpg",
+        year: "1960",
+        description: "Phoenix secretary Marion Crane (Janet Leigh), on the lam after stealing $40,000 from her employer in order to run away with her boyfriend, Sam Loomis (John Gavin), is overcome by exhaustion during a heavy rainstorm. Traveling on the back roads to avoid the police, she stops for the night at the ramshackle Bates Motel and meets the polite but highly strung proprietor Norman Bates (Anthony Perkins), a young man with an interest in taxidermy and a difficult relationship with his mother.",
+        rating: 0.0,
+        genres: []
+    },
+    {
+        id: 15,
+        title: "Frankenhooker",
+        image: "https://m.media-amazon.com/images/I/81GMwoXnjTL._SL1500_.jpg",
+        year: "1990",
+        description: "Phoenix secretary Marion Crane (Janet Leigh), on the lam after stealing $40,000 from her employer in order to run away with her boyfriend, Sam Loomis (John Gavin), is overcome by exhaustion during a heavy rainstorm. Traveling on the back roads to avoid the police, she stops for the night at the ramshackle Bates Motel and meets the polite but highly strung proprietor Norman Bates (Anthony Perkins), a young man with an interest in taxidermy and a difficult relationship with his mother.",
+        rating: 0.0,
+        genres: []
+    },
+    {
+        id: 16,
+        title: "Tucker & Dale VS. Evil",
+        image: "https://www.tvguide.com/a/img/catalog/provider/1/2/1-7746045182.jpg",
+        year: "2010",
+        description: "Two scruffy pals' (Tyler Labine, Alan Tudyk) backwoods vacation takes a bloody turn when ignorant college students mistake them for a pair of murderous hillbillies.",
+        rating: 0.0,
+        genres: []
+    },
+    {
+        id: 17,
+        title: "Ginger Snaps",
+        image: "https://m.media-amazon.com/images/M/MV5BOTc4OTU4MjU1Ml5BMl5BanBnXkFtZTcwNzM1NTgxMQ@@._V1_.jpg",
+        year: "2000",
+        description: "The story of two outcast sisters, Ginger (Katharine Isabelle) and Brigitte (Emily Perkins), in the mindless suburban town of Bailey Downs. On the night of Ginger's first period, she is savagely attacked by a wild creature. Ginger's wounds miraculously heal but something is not quite right. Now Brigitte must save her sister and save herself.",
+        rating: 0.0,
+        genres: []
+    },
+    {
+        id: 18,
+        title: "Nope",
+        image: "https://omg.blog/wp-content/uploads/2022/03/NopePoster.jpg",
+        year: "2022",
+        description: "Caretakers at a California horse ranch encounter a mysterious force that affects human and animal behavior.",
+        rating: 0.0,
+        genres: []
+    },
 ]
 
 
