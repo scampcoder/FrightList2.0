@@ -161,6 +161,60 @@ const movies = [
         rating: 0.0,
         genres: []
     },
+    {
+        id: 19,
+        title: "Beyond the Black Rainbow",
+        image: "https://upload.wikimedia.org/wikipedia/en/1/17/Beyond_the_Black_Rainbow_poster.jpg",
+        year: "2012",
+        description: "A heavily sedated woman (Eva Allan) with ESP tries to escape from the secluded commune where she's been held captive.",
+        rating: 0.0,
+        genres: []
+    },
+    {
+        id: 20,
+        title: "Sleepaway Camp",
+        image: "https://upload.wikimedia.org/wikipedia/en/f/f1/SleepawayCampposter.jpg",
+        year: "1983",
+        description: "Bunks and the showers are a mad stabber's beat at a summer camp strictly for teens.",
+        rating: 0.0,
+        genres: []
+    },
+    {
+        id: 21,
+        title: "The Shining",
+        image: "https://m.media-amazon.com/images/M/MV5BZWFlYmY2MGEtZjVkYS00YzU4LTg0YjQtYzY1ZGE3NTA5NGQxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+        year: "1980",
+        description: "Jack Torrance (Jack Nicholson) becomes winter caretaker at the isolated Overlook Hotel in Colorado, hoping to cure his writer's block. He settles in along with his wife, Wendy (Shelley Duvall), and his son, Danny (Danny Lloyd), who is plagued by psychic premonitions. As Jack's writing goes nowhere and Danny's visions become more disturbing, Jack discovers the hotel's dark secrets and begins to unravel into a homicidal maniac hell-bent on terrorizing his family.",
+        rating: 0.0,
+        genres: []
+    },
+    {
+        id: 22,
+        title: "The Invisible Man",
+        image: "https://resizing.flixster.com/tEb8Dq9hIf36h21vxW7ijyIJ88M=/206x305/v2/https://flxt.tmsimg.com/assets/p17290385_p_v8_ah.jpg",
+        year: "2020",
+        description: "After staging his own suicide, a crazed scientist uses his power to become invisible to stalk and terrorize his ex-girlfriend. When the police refuse to believe her story, she decides to take matters into her own hands and fight back.",
+        rating: 0.0,
+        genres: []
+    },
+    {
+        id: 23,
+        title: "The Voices",
+        image: "https://resizing.flixster.com/R2zjiUQ2R8WqNf-H9crKAeav3uU=/206x305/v2/https://flxt.tmsimg.com/assets/p11379539_p_v8_aj.jpg",
+        year: "2015",
+        description: "A mentally unhinged factory worker (Ryan Reynolds) must decide whether to listen to his talking cat and become a killer, or follow his dog's advice to keep striving for normalcy.",
+        rating: 0.0,
+        genres: []
+    },
+    {
+        id: 24,
+        title: "Last Shift",
+        image: "https://m.media-amazon.com/images/I/51wSz30MlBL.jpg",
+        year: "2014",
+        description: "A rookie cop's first solo shift in a closing station turns into a living nightmare.",
+        rating: 0.0,
+        genres: []
+    },
 ]
 
 
