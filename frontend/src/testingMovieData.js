@@ -215,6 +215,60 @@ const movies = [
         rating: 0.0,
         genres: []
     },
+    {
+        id: 25,
+        title: "The Lighthouse",
+        image: "https://movieposters2.com/images/1733854-b.jpg",
+        year: "2019",
+        description: "Two lighthouse keepers try to maintain their sanity while living on a remote and mysterious New England island in the 1890s.",
+        rating: 0.0,
+        genres: []
+    },
+    {
+        id: 26,
+        title: "Parasite",
+        image: "http://rpl.libnet.info/images/events/rpl/June_-_Parasite.jpg",
+        year: "2019",
+        description: "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+        rating: 0.0,
+        genres: []
+    },
+    {
+        id: 27,
+        title: "Mother!",
+        image: "http://www.indiewire.com/wp-content/uploads/2017/06/mother.jpg",
+        year: "2017",
+        description: "A young woman spends her days renovating the Victorian mansion that she lives in with her husband in the countryside",
+        rating: 0.0,
+        genres: []
+    },
+    {
+        id: 28,
+        title: "Hereditary",
+        image: "https://i.redd.it/6ulhndv2lmo61.jpg",
+        year: "2018",
+        description: "When the matriarch of the Graham family passes away, her daughter and grandchildren begin to unravel cryptic and increasingly terrifying secrets about their ancestry, trying to outrun the sinister fate they have inherited.",
+        rating: 0.0,
+        genres: []
+    },
+    {
+        id: 29,
+        title: "Misery",
+        image: "https://cdn11.bigcommerce.com/s-yzgoj/images/stencil/1280x1280/products/48464/4669254/apij9db2b__09664.1625687391.jpg?c=2",
+        year: "1990",
+        description: "After a serious car crash, novelist Paul Sheldon (James Caan) is rescued by former nurse Annie Wilkes (Kathy Bates), who claims to be his biggest fan. Annie brings him to her remote cabin to recover, where her obsession takes a dark turn when she discovers Sheldon is killing off her favorite character from his novels. As Sheldon devises plans for escape, Annie grows increasingly controlling, even violent, as she forces the author to shape his writing to suit her twisted fantasies.",
+        rating: 0.0,
+        genres: []
+    },
+    {
+        id: 30,
+        title: "Dusk Till Dawn",
+        image: "https://cdn.shopify.com/s/files/1/1416/8662/products/from_dusk_till_dawn_1995_original_film_art_e0ee7697-6d04-4e6b-9691-c49675aef993_600x.jpg?v=1641340896",
+        year: "1996",
+        description: "On the run from a bank robbery that left several police officers dead, Seth Gecko (George Clooney) and his paranoid, loose-cannon brother, Richard (Quentin Tarantino), hightail it to the Mexican border. Kidnapping preacher Jacob Fuller (Harvey Keitel) and his kids, the criminals sneak across the border in the family's RV and hole up in a topless bar. Unfortunately, the bar also happens to be home base for a gang of vampires, and the brothers and their hostages have to fight their way out.",
+        rating: 0.0,
+        genres: []
+    },
 ]
 
 
