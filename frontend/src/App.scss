@@ -182,7 +182,7 @@ nav {
   .searched-movie {
     height: 100%;
   }
-  
+
   .searched-movie:hover {
     transform: scale(1.1);
   }
@@ -232,3 +232,10 @@ nav {
     border: 2px solid $bloodred;
   }
   /*End of Searched Films*/
+
+  /*Movie Page*/
+  .movie-pg {
+    color: white;
+    margin-top: 2vh;
+  }
+  /*End of Movie Page*/

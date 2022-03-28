@@ -8,6 +8,7 @@ import App from "./App";
 import SearchPage from "./routes/SearchPage";
 import Profile from "./routes/ProfileComponent";
 import MyLists from "./routes/MyListsComponent";
+import MoviePage from "./routes/MoviePage";
 
 const rootElement = document.getElementById("root");
 render(
@@ -17,6 +18,7 @@ render(
       <Route path="profile" element={<Profile />} />
       <Route path="lists" element={<MyLists />} />
       <Route path="search" element={<SearchPage />} />
+      <Route path=":title" element={<MoviePage />}/>
     </Routes>
   </BrowserRouter>,
   rootElement
