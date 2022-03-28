@@ -180,7 +180,11 @@ nav {
   }
 
   .searched-movie {
+    cursor: pointer;
+  }
 
+  .searched-movie:hover {
+    transform: scale(1.1);
   }
 
   .search-bar-lt {
