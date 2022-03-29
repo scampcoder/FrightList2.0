@@ -37,11 +37,15 @@ body {
     color: transparent;
   }
 
+.search-bar input {
+  color: #000;
+}
+
 .search-bar:focus {
   background: transparent;
   border-color: transparent;
   box-shadow: none;
-  color: black;
+  color: black !important;
   border-bottom: 2px solid $dark-gray;  
 }
 
