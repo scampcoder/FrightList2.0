@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 export default function Navbar() {
+    const searchTerm = document.getElementById('nav-search').value;
+
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-blood nav-menu sticky-top">
             <div className="container-fluid">
@@ -22,8 +24,8 @@ export default function Navbar() {
                 </li>
                 </ul>
                 <form className="d-flex me-5">
-                <input className="form-control search-bar" type="search" placeholder="Find a Film..." aria-label="Search"/>
-                <Link to="/search"><button className="btn btn-dark search-button text-nowrap" type="submit">Scare Me</button></Link>
+                <input className="form-control search-bar" type="search" placeholder="Find a Film..." aria-label="Search" id="nav-search"/>
+                <Link to={`/search/${searchTerm}`}><button className="btn btn-dark search-button text-nowrap" type="submit">Scare Me</button></Link>
                 </form>
             </div>
             </div>

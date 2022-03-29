@@ -2,13 +2,15 @@ import React from 'react'
 import Movie from '../components/MovieComponent'
 import movies from '../testingMovieData'
 import Navbar from '../components/NavbarComponent';
+import { useSearchParams } from 'react-router-dom';
 
 export default function SearchPage() {
     const [moviesData, setMoviesData] = React.useState(movies);
     
     const [searchTerm, setSearchTerm] = React.useState('');
 
-    const [searched, setSearched] = React.useState(false)
+    const [searched, setSearched] = React.useState(false);
+
     
     React.useEffect(() => {
         setMoviesData(movies.filter(movie => movie.title.toLowerCase().includes(searchTerm.toLowerCase())))

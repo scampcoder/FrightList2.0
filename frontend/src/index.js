@@ -18,6 +18,7 @@ render(
       <Route path="profile" element={<Profile />} />
       <Route path="lists" element={<MyLists />} />
       <Route path="search" element={<SearchPage />} />
+      <Route path="search/:searchTerm" element={<SearchPage />}/>
       <Route path=":title" element={<MoviePage />}/>
     </Routes>
   </BrowserRouter>,
