@@ -21,6 +21,7 @@
 - How to make calls to APIs and turn that data into components
 - How to send API data to components
 - How to render multiple components with .map
-
+- How to use React Router Dom for a multi-page React app
+- How to use form inputs to generate routes
 
 Temporary film descriptions from Rotten Tomatoes
