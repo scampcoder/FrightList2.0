@@ -8,30 +8,34 @@ export default function SearchPage() {
     const [moviesData, setMoviesData] = React.useState(movies);
     
     const [searchParams, setSearchParams] = useSearchParams();
-    const navSearch = searchParams.get('search')
-    console.log(navSearch)
-
+    let navSearch = searchParams.get('search');
+    
     const [searchTerm, setSearchTerm] = React.useState(navSearch ? navSearch : "");
-
+    
     const [searched, setSearched] = React.useState(navSearch ? true : false);
 
 
     function handleSearch(event) {
         const {value} = event.target;
         setSearched(true);
-        setSearchTerm(value);  
+        setSearchTerm(value);
+        navSearch = searchTerm
     }
-    
-    
    
-    console.log(searchTerm)
+    console.log('navSearch =', navSearch)
+    console.log('searchTerm = ', searchTerm)
+    console.log('searched = ', searched)
+
 
     React.useEffect(() => {
         setMoviesData(movies.filter(movie => movie.title.toLowerCase().includes(searchTerm.toLowerCase())))
     }, [searchTerm])
 
-    
+    React.useEffect(() => {
+        setSearchTerm(navSearch)
+    }, [searchParams])
 
+    
     
     const movieElements = moviesData.map(movie => {return <Movie key={movie.id} movie={movie} />}) 
     const movieRow = moviesData.length >= 1 ? <div className='row'>{movieElements}</div> : <div className='text-muted text-center search-error'><h1 className='text-blood'>Oooh, that's scary.</h1><p>We couldn't find that movie.</p></div>
@@ -47,7 +51,7 @@ export default function SearchPage() {
                     placeholder='Find a Film...' 
                     type='text'
                     name='searchTerm'
-                    value={navSearch ? navSearch : searchTerm}
+                    value={searchTerm}
                     onChange={handleSearch}
                 />
                 <button 
