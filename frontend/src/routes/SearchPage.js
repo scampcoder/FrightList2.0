@@ -2,16 +2,19 @@ import React from 'react'
 import Movie from '../components/MovieComponent'
 import movies from '../testingMovieData'
 import Navbar from '../components/NavbarComponent';
-import { useParams } from 'react-router-dom';
+import { useSearchParams } from 'react-router-dom';
 
 export default function SearchPage() {
     const [moviesData, setMoviesData] = React.useState(movies);
     
-    const { navSearch } = useParams();
+    const [searchParams, setSearchParams] = useSearchParams();
+    const navSearch = searchParams.get('search')
+    console.log(navSearch)
 
     const [searchTerm, setSearchTerm] = React.useState(navSearch ? navSearch : "");
 
     const [searched, setSearched] = React.useState(navSearch ? true : false);
+
 
     function handleSearch(event) {
         const {value} = event.target;

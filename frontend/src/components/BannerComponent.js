@@ -6,7 +6,7 @@ export default function Banner() {
          {/*Banner*/}
         <section className="banner">
         <div className="video-container">
-            <video className="bg-video" autoplay loop muted>
+            <video className="bg-video" autoPlay loop muted>
                 <source src='./images/fog.mp4' type="video/mp4"/>
             </video>
         </div>

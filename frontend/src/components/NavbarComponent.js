@@ -29,7 +29,7 @@ export default function Navbar() {
                 </ul>
                 <form className="d-flex me-5">
                 <input className="form-control search-bar" type="search" placeholder="Find a Film..." aria-label="Search" id="nav-search" onChange={handleNavSearch}/>
-                <Link to={`/search/${navSearch}`}><button className="btn btn-dark search-button text-nowrap" type="submit">Scare Me</button></Link>
+                <Link to={`/search?search=${navSearch}`}><button className="btn btn-dark search-button text-nowrap" type="submit">Scare Me</button></Link>
                 </form>
             </div>
             </div>
