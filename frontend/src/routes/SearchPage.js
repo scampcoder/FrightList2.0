@@ -2,25 +2,32 @@ import React from 'react'
 import Movie from '../components/MovieComponent'
 import movies from '../testingMovieData'
 import Navbar from '../components/NavbarComponent';
+import { useParams } from 'react-router-dom';
 
 export default function SearchPage() {
     const [moviesData, setMoviesData] = React.useState(movies);
     
-    const [searchTerm, setSearchTerm] = React.useState('');
+    const { navSearch } = useParams();
 
-    const [searched, setSearched] = React.useState(false);
-    
-    
-    React.useEffect(() => {
-        setMoviesData(movies.filter(movie => movie.title.toLowerCase().includes(searchTerm.toLowerCase())))
-    }, [searchTerm])
+    const [searchTerm, setSearchTerm] = React.useState(navSearch ? navSearch : "");
+
+    const [searched, setSearched] = React.useState(navSearch ? true : false);
 
     function handleSearch(event) {
         const {value} = event.target;
         setSearched(true);
-        setSearchTerm(value);
-        
+        setSearchTerm(value);  
     }
+    
+    
+   
+    console.log(searchTerm)
+
+    React.useEffect(() => {
+        setMoviesData(movies.filter(movie => movie.title.toLowerCase().includes(searchTerm.toLowerCase())))
+    }, [searchTerm])
+
+    
 
     
     const movieElements = moviesData.map(movie => {return <Movie key={movie.id} movie={movie} />}) 
@@ -37,7 +44,7 @@ export default function SearchPage() {
                     placeholder='Find a Film...' 
                     type='text'
                     name='searchTerm'
-                    value={searchTerm}
+                    value={navSearch ? navSearch : searchTerm}
                     onChange={handleSearch}
                 />
                 <button 
