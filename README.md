@@ -23,5 +23,6 @@
 - How to render multiple components with .map
 - How to use React Router Dom for a multi-page React app
 - How to use form inputs to generate routes
+- How to set and access query parameters to render components
 
 Temporary film descriptions from Rotten Tomatoes

@@ -269,6 +269,15 @@ const movies = [
         rating: 0.0,
         genres: []
     },
+    {
+        id: 31,
+        title: "Hostel",
+        image: "https://images.moviesanywhere.com/a5d92493a1ff8b71f22a04101fd5ba91/5e4deb34-1d7b-4d24-85bb-8567efca1119.jpg",
+        year: "2005",
+        description: "Best friends Josh (Derek Richardson) and Paxton (Jay Hernandez) decide to spend the summer after college graduation on an all-out backpacking trip across Europe. While stopping in Amsterdam to indulge their tastes for drugs and sex, they meet Oli (Eythor Gudjonsson), a like-minded traveler from Iceland. When the three bachelors set off to investigate enticing rumors of a Slovakian hostel in a city populated by lusty women, they find themselves drawn unwittingly into a deadly game.",
+        rating: 0.0,
+        genres: []
+    },
 ]
 
 
