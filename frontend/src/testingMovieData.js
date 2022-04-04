@@ -278,6 +278,24 @@ const movies = [
         rating: 0.0,
         genres: []
     },
+    {
+        id: 32,
+        title: "Little Shop of Horrors",
+        image: "https://static.wikia.nocookie.net/littleshop/images/1/14/Little_Shop_of_Horrors_1986_A_Poster.jpg/revision/latest?cb=20180316101709",
+        year: "1986",
+        description: "Meek flower shop assistant Seymour (Rick Moranis) pines for co-worker Audrey (Ellen Greene). During a total eclipse, he discovers an unusual plant he names Audrey II, which feeds only on human flesh and blood. The growing plant attracts a great deal of business for the previously struggling store. After Seymour feeds Audrey's boyfriend, Orin (Steve Martin), to the plant after Orin's accidental death, he must come up with more bodies for the increasingly bloodthirsty plant.",
+        rating: 0.0,
+        genres: ["Musical", "Camp"]
+    },
+    {
+        id: 33,
+        title: "Sweeney Todd",
+        image: "https://static.tvtropes.org/pmwiki/pub/images/sweeney_todd_burton_9698.jpg",
+        year: "2007",
+        description: "Evil Judge Turpin (Alan Rickman) lusts for the beautiful wife of a London barber (Johnny Depp) and transports him to Australia for a crime he did not commit. Returning after 15 years and calling himself Sweeney Todd, the now-mad man vows revenge, applying his razor to unlucky customers and shuttling the bodies down to Mrs. Lovett (Helena Bonham Carter), who uses them in her meat-pie shop. Though many fall to his blade, he will not be satisfied until he slits Turpin's throat.",
+        rating: 0.0,
+        genres: ["Musical", "Cannibalism"]
+    },
 ]
 
 
