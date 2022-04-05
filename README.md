@@ -24,5 +24,6 @@
 - How to use React Router Dom for a multi-page React app
 - How to use form inputs to generate routes
 - How to set and access query parameters to render components
+- How to access the array index during a map method
 
 Temporary film descriptions from Rotten Tomatoes
