@@ -296,6 +296,15 @@ const movies = [
         rating: 0.0,
         genres: ["Musical", "Cannibalism"]
     },
+    {
+        id: 34,
+        title: "Final Destination 3",
+        image: "https://images.fanart.tv/fanart/final-destination-3-5f3260f580ca9.jpg",
+        year: "2006",
+        description: "Six years after a group of high-school students first cheated death, another teen (Mary Elizabeth Winstead) has a premonition that she and her friends will be involved in a horrifying roller-coaster accident. When the vision proves true, the student and her fellow survivors must deal with the repercussions of cheating the Grim Reaper.",
+        rating: 0.0,
+        genres: []
+    },
 ]
 
 
