@@ -243,3 +243,39 @@ nav {
     margin-top: 2vh;
   }
   /*End of Movie Page*/
+
+  /*Carousel*/
+  .carousel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .list-slide {
+    width: 200px;
+    height: 300px;
+  }
+
+  .right-arrow {
+    position: absolute;
+    top: 50%;
+    color: white;
+    right: 32px;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+    font-size: 2rem;
+  }
+
+  .left-arrow {
+    position: absolute;
+    top: 50%;
+    color: white;
+    left: 32px;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+    font-size: 2rem;
+  }
+  /*End of Carousel*/

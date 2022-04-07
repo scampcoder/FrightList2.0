@@ -37,7 +37,7 @@ export default function SearchPage() {
 
     
     
-    const movieElements = moviesData.map(movie => {return <Movie key={movie.id} movie={movie} />}) 
+    const movieElements = moviesData.map(movie => {return <Movie key={movie.id} movie={movie} type="searched-movie"  />}) 
     const movieRow = moviesData.length >= 1 ? <div className='row'>{movieElements}</div> : <div className='text-muted text-center search-error'><h1 className='text-blood'>Oooh, that's scary.</h1><p>We couldn't find that movie.</p></div>
 
 

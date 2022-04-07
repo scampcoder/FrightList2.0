@@ -1,11 +1,12 @@
 import React from 'react'
 import movies from '../weeklyMoviesData'
 import Movie from './MovieComponent'
+import { nanoid } from "nanoid"
 
 export default function WeeklyMovies() {
     const movieElements = movies.map(movie => {
       return (
-        <div className="col-md-4 text-center align-self-center">
+        <div key={nanoid()} className="col-md-4 text-center align-self-center">
           <Movie movie={movie} key={movie.id} />
         </div>
       )
