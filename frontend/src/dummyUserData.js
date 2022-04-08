@@ -3,6 +3,7 @@ const users = [
         id: 1,
         userName: "Jason Vorhees",
         email: "goneswimmin@crystallake.com",
+        image: "https://www.andersonkenya1.net/uploads/monthly_2021_01/Jason_Voorhees_002.jpg.89e981ba10d567aaff292b7647993166.jpg",
         profileData: {
             about: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet commodi omnis consectetur ut, nihil quas.",
             favFilm: "Sleepaway Camp"

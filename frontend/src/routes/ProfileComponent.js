@@ -1,6 +1,8 @@
 import React from "react";
 import Navbar from "../components/NavbarComponent";
 import ProfileLists from "../components/ProfileListsComponent";
+import users from '../dummyUserData'
+import AboutMe from "../components/AboutMe";
 
 export default function Profile() {
     return (
@@ -9,21 +11,7 @@ export default function Profile() {
             <section>
                 <div className="container-fluid my-5">
                     <div className="row justify-content-center">
-                        {/*<!-- Profile Blurb -->*/}
-                        <div className="col-4 col-lg-2 p-2 profile-blurb">
-                            <div className="profile-img text-center pb-2">
-                                <img className="img-fluid" src="img/profile.png" alt=""/>
-                            </div>
-                            <div className="about-me">
-                                <h5 className="text-blood fw-bold">About Me</h5>
-                                <p className="text-blood">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet commodi omnis consectetur ut, nihil quas.</p>
-                            </div>
-                            <div className="fav-movie text-blood">
-                                <h6 className="d-inline fw-bold">Favorite Film: </h6>
-                                <p className="d-inline">Sleepaway Camp</p>
-                            </div>
-                        </div>
-                        {/*<!-- End of profile blurb -->*/}
+                        <AboutMe user={users[0]}/>
                         <ProfileLists />
                     </div>
                 </div>

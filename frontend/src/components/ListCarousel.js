@@ -25,8 +25,10 @@ export default function ListCarousel({movies, title}) {
 
     return (
         <div className='col-6'>  
-            <i className={textDecor}></i>
-            <h3 className="text-white text-decoration-none">{title}</h3>      
+            <div className='carousel-header'>
+                <i className={textDecor}></i>
+                <h3 className="text-white text-decoration-none">{title}</h3>
+            </div>      
             <div className='carousel'>
                 <FaChevronLeft className="left-arrow text-white" onClick={prevSlide} />    
                 {movies.map((movie, index) => {
