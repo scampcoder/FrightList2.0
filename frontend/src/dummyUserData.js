@@ -86,30 +86,32 @@ const users = [
                 },
             ]
         },
-        activity: {
-            comments: [
-                {
-                    movie: "Freddy vs. Jason",
-                    comment: "Awesome ending."
-                },
-                {
-                    movie: "The Creature from the Black Lagoon",
-                    comment: "Best hiding place? Underwater."
-                },
-                {
-                    movie: "Halloween",
-                    comment: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam cupiditate labore sed voluptatibus aut officia veritatis tempore architecto ipsam fugiat!"
-                },
-                {
-                    movie: "House of 1000 Corpses",
-                    comment: "What did I just watch?"
-                },
-                {
-                    movie: "Suspiria",
-                    comment: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus earum quod sapiente blanditiis voluptates sed facilis repellendus excepturi labore incidunt architecto, voluptatum ad! Placeat recusandae officia cum culpa corrupti maiores."
-                },
-            ],
-        }
+        userActivities: [
+            {
+                action: "comment",
+                target: "Freddy vs. Jason",
+                text: "Awesome ending."
+            },
+            {
+                action: "comment",
+                target: "The Creature from the Black Lagoon",
+                text: "Best hiding place? Underwater."
+            },
+            {
+                action: "comment",
+                target: "Halloween",
+                text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam cupiditate labore sed voluptatibus aut officia veritatis tempore architecto ipsam fugiat!"
+            },
+            {
+                action: "comment",
+                target: "House of 1000 Corpses",
+                text: "What did I just watch?"
+            },
+            {
+                action: "like",
+                target: "Suspiria",
+            },
+        ]
     }
 ]
 
