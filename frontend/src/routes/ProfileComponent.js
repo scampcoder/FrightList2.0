@@ -4,6 +4,7 @@ import ProfileLists from "../components/ProfileListsComponent";
 import users from '../dummyUserData'
 import AboutMe from "../components/AboutMe";
 import RecentActivity from "../components/RecentActivityComponent";
+import Footer from '../components/FooterComponent'
 
 export default function Profile() {
 
@@ -33,6 +34,7 @@ export default function Profile() {
                 </div>
             </section>
             {/*<!-- End of recent activities -->*/}
+            <Footer />
         </div>
         
     )

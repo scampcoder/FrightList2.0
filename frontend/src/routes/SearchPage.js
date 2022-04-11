@@ -3,6 +3,7 @@ import Movie from '../components/MovieComponent'
 import movies from '../testingMovieData'
 import Navbar from '../components/NavbarComponent';
 import { useSearchParams } from 'react-router-dom';
+import Footer from '../components/FooterComponent'
 
 export default function SearchPage() {
     const [moviesData, setMoviesData] = React.useState(movies);
@@ -63,7 +64,7 @@ export default function SearchPage() {
             </div>
             {searched && movieRow}
             </div>
-         
+         <Footer />
         </div>
     )
 }

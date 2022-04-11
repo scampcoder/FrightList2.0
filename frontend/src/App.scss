@@ -244,6 +244,7 @@ nav {
   }
   /*End of Movie Page*/
 
+  /*Profile*/
   /*Carousel*/
   .carousel {
     position: relative;
@@ -283,3 +284,46 @@ nav {
     text-align: center;
   }
   /*End of Carousel*/
+
+  .user-icon {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+
+  .activity-container {
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+  .activity {
+  }
+
+  .activity-text {
+    display: block;
+  }
+
+  .font-italic {
+    font-style: italic;
+  }
+
+  .border-bottom-blood {
+    border-bottom: 2px solid $bloodred;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.about-me {
+  h5 {
+      border-bottom: solid $bloodred;
+    }
+}
+
+.activities {
+  margin: auto auto;
+}
+  /*End of Profile*/

@@ -11,14 +11,22 @@ export default function RecentActivity({user, userAction}) {
         activityText = " replied to"
     }
 
+ 
+
     return (
-        <div className="activity text-white">
-            <p>
-                <img src={user.image} alt={user.userName} className="profile-icon"/>
+        <div>
+            <div className="activity-container text-white">
+            <div>
+                <img src={user.image} alt={user.userName} className="user-icon"/>
+            </div>
+            <div className='activity'>
                     <span className="user-name">{user.userName}</span> 
-                    {activityText} <span className="comment-movie-title">{userAction.target}</span> <span className="user-activity">{activityText !== "like" && userAction.text}</span>
-            </p>
-            <div className="border-bottom-blood"></div>
+                    {activityText} 
+                    <span className="font-italic"> {userAction.target} </span> 
+                    <span className="activity-text">{userAction.action !== "like" && `"${userAction.text}"`}</span>
+            </div>
+        </div>
+        <div className="border-bottom-blood"></div>
         </div>
     )
 }
