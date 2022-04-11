@@ -6,7 +6,8 @@ const movies = [
         year: "1968",
         description: "A young wife comes to believe that her offspring is not of this world. Waifish Rosemary Woodhouse (Mia Farrow) and her struggling actor husband Guy (John Cassavetes) move to a New York City apartment building with an ominous reputation and odd neighbors Roman and Minnie Castavet (Sidney Blackmer, Ruth Gordon). When Rosemary becomes pregnant she becomes increasingly isolated, and the diabolical truth is revealed only after Rosemary gives birth.",
         rating: 0.0,
-        genres: []
+        genres: [],
+        triggerWarnings: []
     },
     {
         id: 2,
@@ -15,7 +16,8 @@ const movies = [
         year: "1985",
         description: "When foreman Frank (James Karen) shows new employee Freddy (Thom Mathews) a secret military experiment in a supply warehouse, the two klutzes accidentally release a gas that reanimates corpses into flesh-eating zombies. As the epidemic spreads throughout Louisville, Ky., and the creatures satisfy their hunger in gory and outlandish ways, Frank and Freddy fight to survive with the help of their boss (Clu Gulager) and a mysterious mortician (Don Calfa).",
         rating: 0.0,
-        genres: []
+        genres: [],
+        triggerWarnings: []
     },
     {
         id: 3,
@@ -24,7 +26,8 @@ const movies = [
         year: "2006",
         description: "Nice, normal-looking Leslie Vernon (Nathan Baesel) has an obsession with movie-style slashers like Michael Myers, Jason Voorhees and Freddy Krueger. Leslie decides to follow in the footsteps of his heroes, and, ever the self-promoter, invites a documentary filmmaker (Angela Goethals) and her crew to follow him around as he constructs his own grisly legacy.",
         rating: 0.0,
-        genres: []
+        genres: [],
+        triggerWarnings: []
     },
     {
         id: 4,
@@ -33,7 +36,8 @@ const movies = [
         year: "1974",
         description: "When Sally (Marilyn Burns) hears that her grandfather's grave may have been vandalized, she and her paraplegic brother, Franklin (Paul A. Partain), set out with their friends to investigate. After a detour to their family's old farmhouse, they discover a group of crazed, murderous outcasts living next door. As the group is attacked one by one by the chainsaw-wielding Leatherface (Gunnar Hansen), who wears a mask of human skin, the survivors must do everything they can to escape.",
         rating: 0.0,
-        genres: []
+        genres: [],
+        triggerWarnings: []
     },
     {
         id: 5,
@@ -42,7 +46,8 @@ const movies = [
         year: "1981",
         description: "Ashley 'Ash' Williams (Bruce Campbell), his girlfriend and three pals hike into the woods to a cabin for a fun night away. There they find an old book, the Necronomicon, whose text reawakens the dead when it's read aloud. The friends inadvertently release a flood of evil and must fight for their lives or become one of the evil dead. Ash watches his friends become possessed, and must make a difficult decision before daybreak to save his own life in this, the first of Sam Raimi's trilogy.",
         rating: 0.0,
-        genres: []
+        genres: [],
+        triggerWarnings: []
     },
     {
         id: 6,
@@ -51,7 +56,8 @@ const movies = [
         year: "1980",
         description: "Crystal Lake's history of murder doesn't deter counselors from setting up a summer camp in the woodsy area. Superstitious locals warn against it, but the fresh-faced young people -- Jack (Kevin Bacon), Alice (Adrienne King), Bill (Harry Crosby), Marcie (Jeannine Taylor) and Ned (Mark Nelson) -- pay little heed to the old-timers. Then they find themselves stalked by a brutal killer. As they're slashed, shot and stabbed, the counselors struggle to stay alive against a merciless opponent.",
         rating: 0.0,
-        genres: []
+        genres: [],
+        triggerWarnings: []
     },
     {
         id: 7,
@@ -60,7 +66,8 @@ const movies = [
         year: "2017",
         description: "Now that Chris and his girlfriend, Rose, have reached the meet-the-parents milestone of dating, she invites him for a weekend getaway with Missy and Dean. At first, Chris reads the family's overly accommodating behavior as nervous attempts to deal with their daughter's interracial relationship, but as the weekend progresses, a series of increasingly disturbing discoveries leads him to a truth that he never could have imagined.",
         rating: 0.0,
-        genres: []
+        genres: [],
+        triggerWarnings: []
     },
     {
         id: 8,
@@ -69,7 +76,8 @@ const movies = [
         year: "2014",
         description: "Aaron answers an online ad and drives to a stranger's house to film him for the day. The man wants to make a movie for his unborn child, but his requests become more bizarre as the day goes along.",
         rating: 0.0,
-        genres: []
+        genres: [],
+        triggerWarnings: []
     },
     {
         id: 9,
@@ -78,7 +86,8 @@ const movies = [
         year: "2017",
         description: "A video artist quickly realizes she has made a mistake when she meets a serial killer in a cabin.",
         rating: 0.0,
-        genres: []
+        genres: [],
+        triggerWarnings: []
     },
     {
         id: 10,
@@ -87,7 +96,8 @@ const movies = [
         year: "1974",
         description: "As winter break begins, a group of sorority sisters, including Jess (Olivia Hussey) and the often inebriated Barb (Margot Kidder), begin to receive anonymous, lascivious phone calls. Initially, Barb eggs the caller on, but stops when he responds threateningly. Soon, Barb's friend Claire (Lynne Griffin) goes missing from the sorority house, and a local adolescent girl is murdered, leading the girls to suspect a serial killer is on the loose. But no one realizes just how near the culprit is.",
         rating: 0.0,
-        genres: []
+        genres: [],
+        triggerWarnings: []
     },
     {
         id: 11,
@@ -96,7 +106,8 @@ const movies = [
         year: "2008",
         description: "With too many wars and too few soldiers, a lab develops a virus that brings dead Marines back to life. When a test subject escapes, he heads to a strip club and infects dancer Jessy (Jennifer Holland), who becomes a zombie. The club's owner, Ian (Robert Englund), discovers that undead Jessy pulls in more money, and he encourages the other girls to get infected, including the popular Kat (Jenna Jameson). Kat and her friends go along with the plan -- but then they start killing the clients.",
         rating: 0.0,
-        genres: []
+        genres: [],
+        triggerWarnings: []
     },
     {
         id: 12,
@@ -105,7 +116,8 @@ const movies = [
         year: "1991",
         description: "Jodie Foster stars as Clarice Starling, a top student at the FBI's training academy. Jack Crawford (Scott Glenn) wants Clarice to interview Dr. Hannibal Lecter (Anthony Hopkins), a brilliant psychiatrist who is also a violent psychopath, serving life behind bars for various acts of murder and cannibalism. Crawford believes that Lecter may have insight into a case and that Starling, as an attractive young woman, may be just the bait to draw him out.",
         rating: 0.0,
-        genres: []
+        genres: [],
+        triggerWarnings: []
     },
     {
         id: 13,
@@ -114,7 +126,8 @@ const movies = [
         year: "2018",
         description: "In the Pacific Northwest in 1983, outsiders Red Miller and Mandy Bloom lead a loving and peaceful existence. When their pine-scented haven is savagely destroyed by a cult led by the sadistic Jeremiah Sand, Red is catapulted into a phantasmagoric journey filled with bloody vengeance and laced with deadly fire.",
         rating: 0.0,
-        genres: []
+        genres: [],
+        triggerWarnings: []
     },
     {
         id: 14,
@@ -123,7 +136,8 @@ const movies = [
         year: "1960",
         description: "Phoenix secretary Marion Crane (Janet Leigh), on the lam after stealing $40,000 from her employer in order to run away with her boyfriend, Sam Loomis (John Gavin), is overcome by exhaustion during a heavy rainstorm. Traveling on the back roads to avoid the police, she stops for the night at the ramshackle Bates Motel and meets the polite but highly strung proprietor Norman Bates (Anthony Perkins), a young man with an interest in taxidermy and a difficult relationship with his mother.",
         rating: 0.0,
-        genres: []
+        genres: [],
+        triggerWarnings: []
     },
     {
         id: 15,
@@ -132,7 +146,8 @@ const movies = [
         year: "1990",
         description: "Phoenix secretary Marion Crane (Janet Leigh), on the lam after stealing $40,000 from her employer in order to run away with her boyfriend, Sam Loomis (John Gavin), is overcome by exhaustion during a heavy rainstorm. Traveling on the back roads to avoid the police, she stops for the night at the ramshackle Bates Motel and meets the polite but highly strung proprietor Norman Bates (Anthony Perkins), a young man with an interest in taxidermy and a difficult relationship with his mother.",
         rating: 0.0,
-        genres: []
+        genres: [],
+        triggerWarnings: []
     },
     {
         id: 16,
@@ -141,7 +156,8 @@ const movies = [
         year: "2010",
         description: "Two scruffy pals' (Tyler Labine, Alan Tudyk) backwoods vacation takes a bloody turn when ignorant college students mistake them for a pair of murderous hillbillies.",
         rating: 0.0,
-        genres: []
+        genres: [],
+        triggerWarnings: []
     },
     {
         id: 17,
@@ -150,7 +166,8 @@ const movies = [
         year: "2000",
         description: "The story of two outcast sisters, Ginger (Katharine Isabelle) and Brigitte (Emily Perkins), in the mindless suburban town of Bailey Downs. On the night of Ginger's first period, she is savagely attacked by a wild creature. Ginger's wounds miraculously heal but something is not quite right. Now Brigitte must save her sister and save herself.",
         rating: 0.0,
-        genres: []
+        genres: [],
+        triggerWarnings: []
     },
     {
         id: 18,
@@ -159,7 +176,8 @@ const movies = [
         year: "2022",
         description: "Caretakers at a California horse ranch encounter a mysterious force that affects human and animal behavior.",
         rating: 0.0,
-        genres: []
+        genres: [],
+        triggerWarnings: []
     },
     {
         id: 19,
@@ -168,7 +186,8 @@ const movies = [
         year: "2012",
         description: "A heavily sedated woman (Eva Allan) with ESP tries to escape from the secluded commune where she's been held captive.",
         rating: 0.0,
-        genres: []
+        genres: [],
+        triggerWarnings: []
     },
     {
         id: 20,
@@ -177,7 +196,8 @@ const movies = [
         year: "1983",
         description: "Bunks and the showers are a mad stabber's beat at a summer camp strictly for teens.",
         rating: 0.0,
-        genres: []
+        genres: [],
+        triggerWarnings: []
     },
     {
         id: 21,
@@ -186,7 +206,8 @@ const movies = [
         year: "1980",
         description: "Jack Torrance (Jack Nicholson) becomes winter caretaker at the isolated Overlook Hotel in Colorado, hoping to cure his writer's block. He settles in along with his wife, Wendy (Shelley Duvall), and his son, Danny (Danny Lloyd), who is plagued by psychic premonitions. As Jack's writing goes nowhere and Danny's visions become more disturbing, Jack discovers the hotel's dark secrets and begins to unravel into a homicidal maniac hell-bent on terrorizing his family.",
         rating: 0.0,
-        genres: []
+        genres: [],
+        triggerWarnings: []
     },
     {
         id: 22,
@@ -195,7 +216,8 @@ const movies = [
         year: "2020",
         description: "After staging his own suicide, a crazed scientist uses his power to become invisible to stalk and terrorize his ex-girlfriend. When the police refuse to believe her story, she decides to take matters into her own hands and fight back.",
         rating: 0.0,
-        genres: []
+        genres: [],
+        triggerWarnings: []
     },
     {
         id: 23,
@@ -204,7 +226,8 @@ const movies = [
         year: "2015",
         description: "A mentally unhinged factory worker (Ryan Reynolds) must decide whether to listen to his talking cat and become a killer, or follow his dog's advice to keep striving for normalcy.",
         rating: 0.0,
-        genres: ["Comedy", "Thriller"]
+        genres: ["Comedy", "Thriller"],
+        triggerWarnings: []
     },
     {
         id: 24,
@@ -213,7 +236,8 @@ const movies = [
         year: "2014",
         description: "A rookie cop's first solo shift in a closing station turns into a living nightmare.",
         rating: 0.0,
-        genres: []
+        genres: [],
+        triggerWarnings: []
     },
     {
         id: 25,
@@ -222,7 +246,8 @@ const movies = [
         year: "2019",
         description: "Two lighthouse keepers try to maintain their sanity while living on a remote and mysterious New England island in the 1890s.",
         rating: 0.0,
-        genres: []
+        genres: [],
+        triggerWarnings: []
     },
     {
         id: 26,
@@ -231,7 +256,8 @@ const movies = [
         year: "2019",
         description: "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
         rating: 0.0,
-        genres: []
+        genres: [],
+        triggerWarnings: []
     },
     {
         id: 27,
@@ -240,7 +266,8 @@ const movies = [
         year: "2017",
         description: "A young woman spends her days renovating the Victorian mansion that she lives in with her husband in the countryside",
         rating: 0.0,
-        genres: []
+        genres: [],
+        triggerWarnings: []
     },
     {
         id: 28,
@@ -249,7 +276,8 @@ const movies = [
         year: "2018",
         description: "When the matriarch of the Graham family passes away, her daughter and grandchildren begin to unravel cryptic and increasingly terrifying secrets about their ancestry, trying to outrun the sinister fate they have inherited.",
         rating: 0.0,
-        genres: []
+        genres: [],
+        triggerWarnings: []
     },
     {
         id: 29,
@@ -258,7 +286,8 @@ const movies = [
         year: "1990",
         description: "After a serious car crash, novelist Paul Sheldon (James Caan) is rescued by former nurse Annie Wilkes (Kathy Bates), who claims to be his biggest fan. Annie brings him to her remote cabin to recover, where her obsession takes a dark turn when she discovers Sheldon is killing off her favorite character from his novels. As Sheldon devises plans for escape, Annie grows increasingly controlling, even violent, as she forces the author to shape his writing to suit her twisted fantasies.",
         rating: 0.0,
-        genres: []
+        genres: [],
+        triggerWarnings: []
     },
     {
         id: 30,
@@ -267,7 +296,8 @@ const movies = [
         year: "1996",
         description: "On the run from a bank robbery that left several police officers dead, Seth Gecko (George Clooney) and his paranoid, loose-cannon brother, Richard (Quentin Tarantino), hightail it to the Mexican border. Kidnapping preacher Jacob Fuller (Harvey Keitel) and his kids, the criminals sneak across the border in the family's RV and hole up in a topless bar. Unfortunately, the bar also happens to be home base for a gang of vampires, and the brothers and their hostages have to fight their way out.",
         rating: 0.0,
-        genres: []
+        genres: [],
+        triggerWarnings: []
     },
     {
         id: 31,
@@ -276,7 +306,8 @@ const movies = [
         year: "2005",
         description: "Best friends Josh (Derek Richardson) and Paxton (Jay Hernandez) decide to spend the summer after college graduation on an all-out backpacking trip across Europe. While stopping in Amsterdam to indulge their tastes for drugs and sex, they meet Oli (Eythor Gudjonsson), a like-minded traveler from Iceland. When the three bachelors set off to investigate enticing rumors of a Slovakian hostel in a city populated by lusty women, they find themselves drawn unwittingly into a deadly game.",
         rating: 0.0,
-        genres: []
+        genres: [],
+        triggerWarnings: []
     },
     {
         id: 32,
@@ -285,7 +316,8 @@ const movies = [
         year: "1986",
         description: "Meek flower shop assistant Seymour (Rick Moranis) pines for co-worker Audrey (Ellen Greene). During a total eclipse, he discovers an unusual plant he names Audrey II, which feeds only on human flesh and blood. The growing plant attracts a great deal of business for the previously struggling store. After Seymour feeds Audrey's boyfriend, Orin (Steve Martin), to the plant after Orin's accidental death, he must come up with more bodies for the increasingly bloodthirsty plant.",
         rating: 0.0,
-        genres: ["Musical", "Camp"]
+        genres: ["Musical", "Camp"],
+        triggerWarnings: []
     },
     {
         id: 33,
@@ -294,7 +326,8 @@ const movies = [
         year: "2007",
         description: "Evil Judge Turpin (Alan Rickman) lusts for the beautiful wife of a London barber (Johnny Depp) and transports him to Australia for a crime he did not commit. Returning after 15 years and calling himself Sweeney Todd, the now-mad man vows revenge, applying his razor to unlucky customers and shuttling the bodies down to Mrs. Lovett (Helena Bonham Carter), who uses them in her meat-pie shop. Though many fall to his blade, he will not be satisfied until he slits Turpin's throat.",
         rating: 0.0,
-        genres: ["Musical", "Cannibalism"]
+        genres: ["Musical", "Cannibalism"],
+        triggerWarnings: []
     },
     {
         id: 34,
@@ -303,7 +336,8 @@ const movies = [
         year: "2006",
         description: "Six years after a group of high-school students first cheated death, another teen (Mary Elizabeth Winstead) has a premonition that she and her friends will be involved in a horrifying roller-coaster accident. When the vision proves true, the student and her fellow survivors must deal with the repercussions of cheating the Grim Reaper.",
         rating: 0.0,
-        genres: []
+        genres: [],
+        triggerWarnings: []
     },
 
 ]
