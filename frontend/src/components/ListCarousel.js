@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaChevronRight, FaChevronLeft } from 'react-icons/fa'
+import { BsChevronRight, BsChevronLeft } from 'react-icons/bs'
 import Movie from './MovieComponent'
 
 export default function ListCarousel({movies, title}) {
@@ -30,7 +30,7 @@ export default function ListCarousel({movies, title}) {
                 <h3 className="text-white text-decoration-none">{title}</h3>
             </div>      
             <div className='carousel'>
-                <FaChevronLeft className="left-arrow text-white" onClick={prevSlide} />    
+                <BsChevronLeft className="left arrow text-muted" onClick={prevSlide} />    
                 {movies.map((movie, index) => {
                     return (
                         <div className={index === activeIndex ? "slide active" : "slide"}>
@@ -40,7 +40,7 @@ export default function ListCarousel({movies, title}) {
                         </div>
                     )
                 })}
-                <FaChevronRight className="right-arrow text-white" onClick={nextSlide} />
+                <BsChevronRight className="right arrow text-muted" onClick={nextSlide} />
             </div>
         </div>                
     )

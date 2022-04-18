@@ -258,32 +258,36 @@ nav {
     height: 300px;
   }
 
-  .right-arrow {
+  .arrow {
     position: absolute;
     top: 50%;
     color: white;
-    right: 32px;
     z-index: 10;
     cursor: pointer;
     user-select: none;
     font-size: 2rem;
+    font-weight: lighter;
+  }
+  .right {
+    right: 32px;
   }
 
-  .left-arrow {
-    position: absolute;
-    top: 50%;
-    color: white;
+  .left {
     left: 32px;
-    z-index: 10;
-    cursor: pointer;
-    user-select: none;
-    font-size: 2rem;
+  }
+
+  .arrow:hover {
+    color: white!important;
   }
   
   .carousel-header {
     text-align: center;
   }
   /*End of Carousel*/
+
+  .profile-blurb {
+    border: solid white;
+  }
 
   .user-icon {
     height: 40px;
@@ -299,7 +303,9 @@ nav {
     display: flex;
 }
 
-  .activity {
+  .recent-activities-section {
+    margin-top: 200px;
+    margin-bottom: 100px;
   }
 
   .activity-text {

@@ -23,7 +23,7 @@ export default function Profile() {
             </section>
 
             {/*<!-- Recent Activities-->*/}
-            <section>
+            <section className="recent-activities-section">
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-8 activities">
