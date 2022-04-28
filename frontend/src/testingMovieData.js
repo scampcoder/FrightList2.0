@@ -349,6 +349,26 @@ const movies = [
         genres: ["Exploitation", "Slasher"],
         triggerWarnings: ["Gore", "Sexual Assault", "Clowns"]
     },
+    {
+        id: 36,
+        title: "Nightmare on Elm Street",
+        image: "https://upload.wikimedia.org/wikipedia/en/f/fa/A_Nightmare_on_Elm_Street_%281984%29_theatrical_poster.jpg",
+        year: "1984",
+        description: "In Wes Craven's classic slasher film, several Midwestern teenagers fall prey to Freddy Krueger (Robert Englund), a disfigured midnight mangler who preys on the teenagers in their dreams -- which, in turn, kills them in reality. After investigating the phenomenon, Nancy (Heather Langenkamp) begins to suspect that a dark secret kept by her and her friends' parents may be the key to unraveling the mystery, but can Nancy and her boyfriend Glen (Johnny Depp) solve the puzzle before it's too late?",
+        rating: 0.0,
+        genres: ["Slasher"],
+        triggerWarnings: ["Gore"]
+    },
+    {
+        id: 37,
+        title: "The Fly",
+        image: "https://flxt.tmsimg.com/assets/p9478_p_v8_ae.jpg",
+        year: "1986",
+        description: "When scientist Seth Brundle (Jeff Goldblum) completes his teleportation device, he decides to test its abilities on himself. Unbeknownst to him, a housefly slips in during the process, leading to a merger of man and insect. Initially, Brundle appears to have undergone a successful teleportation, but the fly's cells begin to take over his body. As he becomes increasingly fly-like, Brundle's girlfriend (Geena Davis) is horrified as the person she once loved deteriorates into a monster.",
+        rating: 0.0,
+        genres: ["Sci-Fi"],
+        triggerWarnings: ["Bugs"]
+    },
 
 ]
 
