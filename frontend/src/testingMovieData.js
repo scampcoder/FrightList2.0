@@ -186,7 +186,7 @@ const movies = [
         year: "2012",
         description: "A heavily sedated woman (Eva Allan) with ESP tries to escape from the secluded commune where she's been held captive.",
         rating: 0.0,
-        genres: ["Supernatural", "SCi-fi", "Surrealism"],
+        genres: ["Supernatural", "Sci-fi", "Surrealism"],
         triggerWarnings: []
     },
     {
@@ -368,6 +368,36 @@ const movies = [
         rating: 0.0,
         genres: ["Sci-Fi"],
         triggerWarnings: ["Bugs"]
+    },
+    {
+        id: 38,
+        title: "Prom Night",
+        image: "https://upload.wikimedia.org/wikipedia/en/7/73/Prom_night_film_poster.jpg",
+        year: "1980",
+        description: "This slasher movie follows a relentless killer who is out to avenge the death of a young girl who died after being bullied and teased by four of her classmates. Now high-school students, the guilt-ridden kids have kept their involvement a secret, but when they start being murdered, one by one, it's clear that someone knows the truth. Also coping with the past are members of the dead girl's family, most notably her prom-queen sister, Kim Hammond (Jamie Lee Curtis).",
+        rating: 0.0,
+        genres: ["Slasher"],
+        triggerWarnings: [""]
+    },
+    {
+        id: 39,
+        title: "The Blair Witch Project",
+        image: "https://www.scifinow.co.uk/wp-content/uploads/2020/10/Blair-Witch-Project-1.jpg",
+        year: "1999",
+        description: "Found video footage tells the tale of three film students (Heather Donahue, Joshua Leonard, Michael C. Williams) who've traveled to a small town to collect documentary footage about the Blair Witch, a legendary local murderer. Over the course of several days, the students interview townspeople and gather clues to support the tale's veracity. But the project takes a frightening turn when the students lose their way in the woods and begin hearing horrific noises.",
+        rating: 0.0,
+        genres: ["Found Footage", "Magic", "Psychological Torment"],
+        triggerWarnings: [""]
+    },
+    {
+        id: 40,
+        title: "American Mary",
+        image: "https://static.wikia.nocookie.net/horrormovies/images/5/5b/Amarycover.jpg/revision/latest?cb=20140823202316",
+        year: "2012",
+        description: "Mary Mason (Katharine Isabelle) is lured into a world of freakish surgeries for easy money.",
+        rating: 0.0,
+        genres: ["Body Horror"],
+        triggerWarnings: ["Sexual Assault", "Gore"]
     },
 
 ]
