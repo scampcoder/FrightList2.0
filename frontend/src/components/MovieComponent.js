@@ -8,7 +8,7 @@ export default function Movie({movie, type}) {
     } else if(type === "slide") {
         styling = "list-slide"
     } else {
-        styling = "col-3 m-2 list-movie"
+        styling = "col-2 m-2 list-movie"
     }
     return (
         <Link to={`/${movie.title}`} className='col-xs-12 col-sm-6 col-lg-3 col-xl-2 py-3'><img className={styling} src={movie.image} alt={movie.title}/></Link>

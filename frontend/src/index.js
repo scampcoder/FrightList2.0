@@ -9,6 +9,7 @@ import SearchPage from "./routes/SearchPage";
 import Profile from "./routes/ProfileComponent";
 import MyLists from "./routes/MyListsComponent";
 import MoviePage from "./routes/MoviePage";
+import AddMovieForm from "./routes/AddMovieForm";
 
 const rootElement = document.getElementById("root");
 render(
@@ -20,6 +21,7 @@ render(
       <Route path="search" element={<SearchPage />} />
       <Route path="search?search=:navSearch" element={<SearchPage />}/>
       <Route path=":title" element={<MoviePage />}/>
+      <Route path="addmovie" element={<AddMovieForm />} />
     </Routes>
   </BrowserRouter>,
   rootElement

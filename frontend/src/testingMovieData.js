@@ -392,7 +392,7 @@ const movies = [
     {
         id: 40,
         title: "American Mary",
-        image: "https://static.wikia.nocookie.net/horrormovies/images/5/5b/Amarycover.jpg/revision/latest?cb=20140823202316",
+        image: "https://www.smalldogdesign.ca/wp-content/uploads/2015/02/ABE_AmericanMary_Canada_Poster-1080x1485.jpg",
         year: "2012",
         description: "Mary Mason (Katharine Isabelle) is lured into a world of freakish surgeries for easy money.",
         rating: 0.0,

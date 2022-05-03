@@ -26,6 +26,9 @@ export default function Navbar() {
                 <li className="nav-item me-3">
                     <Link className="nav-link" to="/lists"><i className="fas fa-list d-lg-none"></i> My Lists</Link>
                 </li>
+                <li className="nav-item me-3">
+                    <Link className="nav-link" to="/addmovie"><i className="fas fa-list d-lg-none"></i> Add a Film</Link>
+                </li>
                 </ul>
                 <form className="d-flex me-5">
                 <input className="form-control search-bar" type="search" placeholder="Find a Film..." aria-label="Search" id="nav-search" onChange={handleNavSearch}/>

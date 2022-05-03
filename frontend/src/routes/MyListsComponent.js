@@ -18,16 +18,16 @@ export default function MyLists() {
     return (
         <div>
             <Navbar />
-            <div className="container mt-4">
-            <section className="row">
-                <div className="col-6 text-center">
-                    <i className="fas fa-skull d-lg-block text-white"></i>
-                    <h1 className="text-light">Watch List</h1>
+            <div className="container lists-container mt-4">
+            <section className="row lists-row">
+                <div className="col-6">
+                    <i className="fas fa-skull d-lg-block text-white text-center"></i>
+                    <h1 className="text-light text-center">Watch List</h1>
                     {listComponent(watchList)}
                 </div>
-                <div className="col-6 text-center">
-                    <i className="fas fa-skull-crossbones d-lg-block text-white"></i>
-                    <h1 className="text-light">Previously Watched</h1>
+                <div className="col-6">
+                    <i className="fas fa-skull-crossbones d-lg-block text-white text-center"></i>
+                    <h1 className="text-light text-center">Previously Watched</h1>
                     {listComponent(previouslyWatched)}
                 </div>
             </section>
